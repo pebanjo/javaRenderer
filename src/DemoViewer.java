@@ -30,13 +30,13 @@ public class DemoViewer {
                 tris.add(new Triangle(new Vertex(100, 100, 100), new Vertex(-100, -100, 100),
                         new Vertex(-100, 100, -100), Color.WHITE));
                 tris.add(new Triangle(new Vertex(100, 100, 100), new Vertex(-100, -100, 100),
-                        new Vertex(100, -100, -100), Color.RED));
+                        new Vertex(100, -100, -100), Color.WHITE));
                 tris.add(new Triangle(new Vertex(-100, 100, -100), new Vertex(100, -100, -100),
-                        new Vertex(100, 100, 100), Color.GREEN));
+                        new Vertex(100, 100, 100), Color.WHITE));
                 tris.add(new Triangle(new Vertex(-100, 100, -100), new Vertex(100, -100, -100),
-                        new Vertex(-100, -100, 100), Color.BLUE));
+                        new Vertex(-100, -100, 100), Color.WHITE));
 
-                for (int i = 0; i < 4; i++) {
+                for (int i = 0; i < 5; i++) {
                     tris = inflate(tris);
                 }
 
